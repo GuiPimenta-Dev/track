@@ -1,3 +1,4 @@
+from functions.hello_jhony.config import HelloJhonyConfig
 from functions.hello_world.config import HelloWorldConfig
 from docs.config import DocsConfig
 from aws_cdk import Stack
@@ -20,3 +21,6 @@ class LambdaStack(Stack):
 
         # HelloWorld
         HelloWorldConfig(self.services)
+
+        # HelloJhony
+        HelloJhonyConfig(self.services)
