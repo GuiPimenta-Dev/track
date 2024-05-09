@@ -2,6 +2,7 @@ import pytest
 import requests
 from lambda_forge.constants import BASE_URL
 
+
 @pytest.mark.integration(method="GET", endpoint="/hello_world")
 def test_hello_world_status_code_is_200():
 

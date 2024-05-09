@@ -1,5 +1,6 @@
 from infra.services import Services
 
+
 class DocsConfig:
     def __init__(self, services: Services) -> None:
         # Swagger at /swagger

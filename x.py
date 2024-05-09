@@ -1,5 +1,6 @@
 import boto3
 
+
 def get_api_gateway_url(stack_name):
     # Create a CloudFormation client
     client = boto3.client('cloudformation')

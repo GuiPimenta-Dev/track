@@ -1,9 +1,9 @@
 import aws_cdk as cdk
 from constructs import Construct
-from infra.stages.deploy import DeployStage
-
 from lambda_forge import context
 from lambda_forge.services import CodeBuildSteps, CodePipeline
+
+from infra.stages.deploy import DeployStage
 
 
 @context(stage="Prod", resources="prod")
