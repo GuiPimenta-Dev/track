@@ -6,6 +6,7 @@ from dataclasses import dataclass
 class Input:
     pass
 
+
 @dataclass
 class Output:
     message: str
@@ -13,8 +14,4 @@ class Output:
 
 def lambda_handler(event, context):
 
-    return {
-        "statusCode": 200,
-        "body": json.dumps({"message": "Hello World!"}),
-        "headers": {"Access-Control-Allow-Origin": "*"}
-    }
+    return {"statusCode": 200, "body": json.dumps({"message": "asd!"}), "headers": {"Access-Control-Allow-Origin": "*"}}

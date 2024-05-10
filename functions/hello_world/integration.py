@@ -8,4 +8,4 @@ def test_hello_world_status_code_is_200():
 
     response = requests.get(url=f"{BASE_URL}/hello_world")
 
-    assert response.status_code == 200 
+    assert response.status_code == 200

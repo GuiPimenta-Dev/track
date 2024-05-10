@@ -1,3 +1,7 @@
+from functions.tre.config import TreConfig
+from functions.gui.config import GuiConfig
+from functions.hello_thais.config import HelloThaisConfig
+from functions.hello_ares.config import HelloAresConfig
 from aws_cdk import Stack
 from constructs import Construct
 from lambda_forge.trackers import reset
@@ -24,3 +28,15 @@ class LambdaStack(Stack):
 
         # HelloJhony
         HelloJhonyConfig(self.services)
+
+        # HelloAres
+        HelloAresConfig(self.services)
+
+        # HelloThais
+        HelloThaisConfig(self.services)
+
+        # Gui
+        GuiConfig(self.services)
+
+        # Tre
+        TreConfig(self.services)

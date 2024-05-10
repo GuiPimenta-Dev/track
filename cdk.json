@@ -71,6 +71,34 @@
                 "description": "A simple hello world",
                 "method": "GET",
                 "endpoint": "/hello_jhony"
+            },
+            {
+                "name": "HelloAres",
+                "path": "./functions/hello_ares",
+                "description": "A simple hello world",
+                "method": "GET",
+                "endpoint": "/hello_ares"
+            },
+            {
+                "name": "HelloThais",
+                "path": "./functions/hello_thais",
+                "description": "A simple hello world",
+                "method": "GET",
+                "endpoint": "/hello_thais"
+            },
+            {
+                "name": "Gui",
+                "path": "./functions/gui",
+                "description": "A simple hello world",
+                "method": "GET",
+                "endpoint": "/gui"
+            },
+            {
+                "name": "Tre",
+                "path": "./functions/tre",
+                "description": "A simple hello world",
+                "method": "GET",
+                "endpoint": "/tre"
             }
         ]
     }
